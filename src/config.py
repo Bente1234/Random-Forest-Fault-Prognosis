@@ -1,0 +1,36 @@
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT / "data"
+FIG_DIR = ROOT / "figures"
+RESULTS_DIR = ROOT / "results"
+
+RAW_DATA = DATA_DIR / "ai4i2020.csv"
+CLEAN_DATA = DATA_DIR / "ai4i2020_clean.csv"
+TRAIN_IDS = DATA_DIR / "train_ids.csv"
+TEST_IDS = DATA_DIR / "test_ids.csv"
+
+SEED = 42
+TEST_SIZE = 0.3
+CV_FOLDS = 5
+
+PRIMARY_METRIC = "average_precision"
+SELECTION_TOLERANCE = 0.01
+
+H1_MIN_RECALL = 0.80
+H1_MIN_PRECISION = 0.60
+H2_MIN_GAIN = 0.05
+H2_MIN_FOLDS = 4
+H3_MIN_GAIN = 0.05
+H4_MIN_RECALL_RULE_MODES = 0.90
+H4_MAX_RECALL_TWF = 0.50
+H5_TOOL_WEAR_RULE = 200
+
+CURRENCY = "CAD"
+COST_INTERVENTION = 1_000
+COST_FAILURE = 10_000
+SENSITIVITY_RATIOS = [2, 5, 10, 20, 50]
+
+TARGET = "Machine failure"
+FAILURE_MODES = ["TWF", "HDF", "PWF", "OSF", "RNF"]
+ID_COLUMNS = ["UDI", "Product ID"]

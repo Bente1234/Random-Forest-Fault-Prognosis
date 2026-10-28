@@ -1,0 +1,11 @@
+Variable,Role,Controllability,Model input,Justification
+UDI,Identifier,-,No,Row index without physical meaning.
+Product ID,Identifier,-,No,Serial number; the quality variant it encodes is already given by Type.
+Type,Independent,Controllable,Yes,Product variant (L/M/H) is chosen in production planning.
+Air temperature [K],Independent,Non-controllable,Yes,Ambient condition of the workshop.
+Process temperature [K],Independent,Non-controllable,Yes,Follows air temperature at about +10 K; not a machine setting.
+Rotational speed [rpm],Independent,Controllable,Yes,Machine set point.
+Torque [Nm],Independent,Controllable,Yes,Load set by the process parameters; coupled with rotational speed.
+Tool wear [min],Independent,Indirectly controllable,Yes,Accumulates with use; reset by the tool replacement policy.
+Machine failure,Dependent,-,Target,Outcome to predict.
+"TWF, HDF, PWF, OSF, RNF",Dependent,-,No,"Failure modes that define the target; used only to analyse results, as inputs they would leak the target."

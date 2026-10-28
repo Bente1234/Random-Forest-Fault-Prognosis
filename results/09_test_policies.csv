@@ -1,0 +1,4 @@
+,alarms,caught,missed,false alarms,recall,precision,cost,saving vs no PdM
+No predictive maintenance,0,0,99,0,0.0,,990000,0.0
+Replace tool at 200 min wear,248,40,59,208,0.40404040404040403,0.16129032258064516,838000,0.15353535353535352
+Random forest,96,87,12,9,0.8787878787878788,0.90625,216000,0.7818181818181819

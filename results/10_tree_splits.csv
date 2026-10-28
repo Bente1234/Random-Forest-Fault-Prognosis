@@ -1,0 +1,9 @@
+feature,learned threshold,documented rule
+strain,10998.5,"11,000 / 12,000 / 13,000 min·Nm for L / M / H (OSF)"
+power,9000.17,"3,500 and 9,000 W (PWF)"
+power,3496.14,"3,500 and 9,000 W (PWF)"
+temp_diff,8.65,"8.6 K, together with speed (HDF)"
+speed,1381.0,"1,380 rpm, together with temperature difference (HDF)"
+tool_wear,202.5,"documented 200–240 min, observed 198–253 min (TWF, random within this window)"
+type_L,0.5,type L has the lowest strain limit (OSF)
+strain,11705.4,"11,000 / 12,000 / 13,000 min·Nm for L / M / H (OSF)"

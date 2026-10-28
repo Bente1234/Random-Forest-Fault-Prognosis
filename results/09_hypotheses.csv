@@ -1,0 +1,6 @@
+hypothesis,criterion,observed,accepted
+H1,recall ≥ 0.8 and precision ≥ 0.6,"recall 0.879, precision 0.906",True
+H2,LR gain ≥ 0.05 and gain in ≥ 4 folds,"gain 0.028, 5 folds",False
+H3,RF − LR ≥ 0.05 PR-AUC,difference 0.421,True
+H4,"HDF, PWF, OSF ≥ 0.9 and TWF < 0.5","HDF 1.000, PWF 1.000, OSF 1.000, TWF 0.143",True
+H5,model cost < both simple policies,"model 216,000 vs 990,000, 838,000 CAD",True

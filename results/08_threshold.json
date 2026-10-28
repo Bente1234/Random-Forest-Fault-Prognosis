@@ -1,0 +1,8 @@
+{
+  "threshold": 0.24,
+  "currency": "CAD",
+  "cost_intervention": 1000,
+  "cost_failure": 10000,
+  "oof_recall": 0.8658008658008658,
+  "oof_precision": 0.8032128514056225
+}

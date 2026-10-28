@@ -1,0 +1,8 @@
+,value
+Raw rows,10000
+Raw failures,339
+Failures without mode (removed),9
+Modes without failure (removed),18
+Clean rows,9973
+Clean failures,330
+Clean failure rate,0.0331

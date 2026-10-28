@@ -1,0 +1,11 @@
+{
+  "model": "random_forest",
+  "features": "physics",
+  "params": {
+    "class_weight": null,
+    "max_depth": null,
+    "min_samples_leaf": 5
+  },
+  "cv_pr_auc_mean": 0.9087664064765887,
+  "cv_pr_auc_std": 0.014466876808974995
+}
